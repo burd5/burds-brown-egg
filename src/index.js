@@ -3,11 +3,34 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import About from './components/About'
+import Rules from './components/Rules'
+import Contact from './components/Contact'
+import History from './components/History'
+import HallOfFame from './components/HallOfFame'
+import Games from './components/Games'
+
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/rules" element={<Rules />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/history" element={<History />} />
+      <Route path="/halloffame" element={<HallOfFame />} />
+      <Route path="/games" element={<Games />} />
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
