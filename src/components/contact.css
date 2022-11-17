@@ -1,7 +1,79 @@
 .contact{
     text-align: center;
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Source Sans Pro';
 }
 
-.contact> h1{
+.contact > h1{
     margin-top: 30px;
+}
+
+Form {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 600px;
+    margin: 20px;
+}
+
+.formPageElements{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.formRight{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.formLeft{
+    width: 70%;
+    margin-top: 60px;
+}
+
+.formLeft h1{
+    font-size: 40px;
+}
+
+.formLeft h4{
+    font-size: 24px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.formLeft img{
+    height: 500px;
+    width: 500px;
+}
+
+#form-textarea-control-opinion{
+    height: 250px;
+}
+
+#form-textarea-control-opinion,
+#form-input-control-last-name,
+#form-input-control-email{
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+#formButton{
+    background-color:rgb(255, 247, 238);
+    font-size: 22px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+}
+
+.contactFields{
+    display: flex;
+    justify-content: space-around;
+}
+
+#form{
+    font-size: 20px;
 }

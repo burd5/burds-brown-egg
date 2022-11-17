@@ -1,5 +1,8 @@
 .games{
     text-align: center;
+    font-family: 'Source Sans Pro';
+    position: relative;
+    min-height: 100vh;
 }
 
 .games > h1{
@@ -10,13 +13,15 @@
     display: flex;
     justify-content: space-around;
     height: fit-content;
+    padding-bottom: 180px;
+    font-size: 22px;
 }
 
 .gameInfo p{
     width: 80%;
     text-align: center;
     margin: 0 auto;
-
+    font-size: 22px;
 }
 
 .gameInfo{

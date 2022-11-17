@@ -12,7 +12,7 @@ export default function Games() {
         <div className="gameHistory">
             <div className="gameInfo">
                 <h3>Inaugural Game</h3>
-                <p>asfhdsjafhdjskafhdsjakfhjsakfadkfjkdslfjskljafjadfj,asn,j</p>
+                <p>It all started here. There is no better arena for Burd's Brown Egg than a large cabin in the woods. A couple drops, a lot of practice, and full buy in from all the participants was all that was needed to deliver this egg to the basement finish line.</p>
                 <h4>Result: 1 for 3 (33%)</h4>
                 <h4>Location: Deep Creek Lake, MD</h4>
                 <iframe title="Inaugural Game" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98509.90825321726!2d-79.39142336609396!3d39.50467914173204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89caaa7f992c407b%3A0x536ce3091c13183f!2sDeep%20Creek%20Lake!5e0!3m2!1sen!2sus!4v1668536672428!5m2!1sen!2sus" width="400" height="250" style={{borderColor: 'black', borderRadius: 10}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
