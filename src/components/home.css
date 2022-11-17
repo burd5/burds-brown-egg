@@ -31,3 +31,56 @@
     font-size: 24px;
 }
 
+
+@media screen and (max-width: 1300px) {
+    .homeSection{
+        height: 400px;
+        width: 300px;
+    }
+    .homeSection:hover{
+        transform: rotate(50deg);
+        height: 450px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeSection{
+        height: 350px;
+        width: 250px;
+    }
+    .homeSection:hover{
+        transform: rotate(50deg);
+        height: 400px;
+        width: 300px;
+    }
+    .home{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 40px;
+    }
+    .homeSection{
+        height: 450px;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .homeSection:hover{
+        transform: rotate(50deg);
+        height: 500px;
+        width: 400px;
+    }
+    .home{
+        gap: 40px;
+    }
+    .footer{
+        position: relative;
+    }
+}

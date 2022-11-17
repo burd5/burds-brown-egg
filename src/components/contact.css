@@ -24,7 +24,7 @@ Form {
 }
 
 .formRight{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -76,4 +76,21 @@ Form {
 
 #form{
     font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .formPageElements{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 150px;
+    }
+    .formLeft{
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .formLeft img{
+        margin: 0 auto;
+        width: fit-content;
+        height: 400px;
+    }
 }
