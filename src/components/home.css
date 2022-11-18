@@ -1,3 +1,8 @@
+.eggs{
+    position: relative;
+    min-height: 100vh;
+}
+
 .home{
     display: flex;
     justify-content: center;
@@ -14,6 +19,7 @@
     background-color: rgb(252, 221, 185);
     transition: transform .3s;
     cursor: pointer;
+    padding-bottom: 180px;
 }
 
 .homeSection:hover{
