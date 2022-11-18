@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import {NavLink} from "react-router-dom"
 
+
 export default function Header() {
 
     let activeStyle = {
@@ -16,6 +17,7 @@ export default function Header() {
         textDecoration: 'none',
         color: 'black',
     }
+
 
   return (
     <div className="header">

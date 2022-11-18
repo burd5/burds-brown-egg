@@ -68,3 +68,42 @@
     background-color: rgb(252, 221, 185);
   }
 
+  .hamburger{
+    display: none;
+    font-size: 34px;
+    color: rgb(252, 221, 185);
+    margin-left: 60px;
+  }
+
+
+  @media screen and (max-width: 1000px){
+      .hamburger{
+        display:inline;
+      }
+      .nav{
+        display: block;
+        height: fit-content;
+        padding-bottom: 20px;
+      }
+      .logo{
+        justify-content: center;
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+      }
+      ul{
+        gap: 5px;
+        justify-content: center;
+      }
+      .headerList{
+        margin: 0 auto;
+      }
+  }
+
+  @media screen and (max-width: 420px) {
+    .logo > img{
+      display: none;
+    }
+    li{
+      font-size: 14px;
+    }
+  }

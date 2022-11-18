@@ -8,7 +8,6 @@ export default function Rules() {
     <div className="pageContainer">
         <Header />
         <div className="listRulesCon">
-            <h1>Rules</h1>
             <div className="listRules">
               <ol>
                 <li>The egg used <strong>MUST</strong> be brown.</li>

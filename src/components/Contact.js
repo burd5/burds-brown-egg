@@ -37,7 +37,6 @@ export default function Contact() {
         <Header />
         <div className="formPageElements">
         <div className="formLeft">
-          <h1>Contact</h1>
           <h4>For inquiries about the game, partnerships, or other business matters, please use the form.</h4>
           <img src="https://media.istockphoto.com/id/177444800/photo/plain-brown-egg-standing-on-white-surface.jpg?s=612x612&w=0&k=20&c=JqJ1Hq-rb9k80B8t_q6O_GZfO-5gO81ZLmtoZeGPyBw=" alt="brown egg" />
         </div>

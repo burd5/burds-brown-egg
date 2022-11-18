@@ -1,6 +1,8 @@
 .halloffame{
     text-align: center;
     font-family: 'Source Sans Pro';
+    position: relative;
+    min-height: 100vh;
 }
 
 .halloffame > h1{
@@ -11,9 +13,29 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    padding-bottom: 180px;
 }
 
 .nominees img{
     height: 400px;
     width: 400px;
+}
+
+
+@media screen and (max-width: 1350px){
+    .nominees img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .nominees{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .nominees img{
+        height: 400px;
+        width: 400px;
+    }
 }

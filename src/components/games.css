@@ -27,3 +27,15 @@
 .gameInfo{
     width: 80%;
 }
+
+@media screen and (max-width: 1300px) {
+    .gameHistory{
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        margin-top: 30px;
+    }
+    .gameInfo p{
+        width: 100%;
+    }
+}
