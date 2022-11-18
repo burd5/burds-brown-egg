@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+<h1>Burd's Brown Egg</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="burdsbrownegg.gif" alt="gif of webpage" href="https://burds-brown-egg.vercel.app/">
 
-## Available Scripts
+Burd's Brown Egg is a React web application for the game Burd's Brown Egg. The game is part myth, part joke, but an actual thing. The website allows user to learn about the game, it's history, the rules, etc.
 
-In the project directory, you can run:
+Link to project: https://burds-brown-egg.vercel.app/
 
-### `npm start`
+<h1>How It's Made:</h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tech used: JavaScript, React, HTML, CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The main idea for this project was to create a simple React Website. I wanted to get back to some React basics and solidify components, layouts, react-router-dom, and other React fundamentals. Burd's Brown Egg was an easy way to fill in content for the website. Other tools used include:
 
-### `npm test`
+react-router-dom, sweetalert2, emailjs-com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h1>Optimizations:</h1>
 
-### `npm run build`
+This app was designed to be simple. If I were to expand it, I would include:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- allowing the user to add their games to the inventory, including the location, number of players, result, and a description.
+- create a mini game player on the website that allows the user to toss the egg from room to room. This would serve as a way to better understand the game while having fun.
+- make the eggs on the home screen more dynamic or change up their styling. I am not a huge fan of how they currently look.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h1>Lessons Learned:</h1>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Creating a React website and using react-router-dom is fairly simple. Using state, props, and hooks still doesn't feel as intuitve as I would like it. I am going to focus future efforts on mastering these skills, which really allow React websites to come to life. I am getting better at moving on from ideas/concepts that are taking up a lot of time when there are other good solutions. Being stubborn and frustrated does not result in efficient or quick solutions to development issues (at least in my experience). I am going to continue workig on Tea Time and focusing on connecting the client side and server side of React sites. 
