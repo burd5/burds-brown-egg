@@ -33,9 +33,9 @@
     .nominees{
         flex-direction: column;
         gap: 50px;
+        margin: 0 auto;
     }
     .nominees img{
-        height: 400px;
-        width: 400px;
+        margin: 0 auto;
     }
 }
