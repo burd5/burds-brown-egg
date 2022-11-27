@@ -89,6 +89,7 @@ Form {
     .formLeft{
         margin: 0 auto;
         margin-top: 40px;
+        width: 100%;
     }
     .formLeft img{
         margin: 0 auto;
@@ -96,6 +97,6 @@ Form {
         height: 400px;
     }
     .formRight{
-        width: 90%;
+        width: 100%;
     }
 }

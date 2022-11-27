@@ -93,9 +93,12 @@
       ul{
         gap: 5px;
         justify-content: center;
+        margin: 0 auto;
+        padding-left: 0px;
       }
       .headerList{
         margin: 0 auto;
+        margin-right: 0px;
       }
   }
 
@@ -105,5 +108,6 @@
     }
     li{
       font-size: 14px;
+      padding: 10px;
     }
   }
