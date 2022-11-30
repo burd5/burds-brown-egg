@@ -5,6 +5,10 @@
     margin: 0 auto;
 }
 
+.listRules li::marker{
+    content: ' 🐣'
+}
+
 .listRulesCon{
     padding-bottom: 180px;
     margin-top: 40px;

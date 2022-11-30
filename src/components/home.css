@@ -24,8 +24,6 @@
 
 .homeSection:hover{
     transform: rotate(50deg);
-    height: 500px;
-    width: 400px;
 }
 
 
